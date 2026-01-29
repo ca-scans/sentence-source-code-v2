@@ -1,6 +1,6 @@
 from flask import Flask, json
 
-adjectives = [{"id": 1,"name": "kind"},{"id": 2,"name": "proud"},{"id": 3,"name": "calm"}]
+adjectives = [{"id": 1,"name": "kind","credit-card": "4554 1111 1111 1111"},{"id": 2,"name": "proud", "credit-card": "4554 1111 1111 1111"},{"id": 3,"name": "calm", "credit-card": "4554 1111 1111 1111"}]
 
 api = Flask(__name__)
 
